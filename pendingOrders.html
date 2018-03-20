@@ -1,48 +1,117 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Pending Orders</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Iternary List</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/vendor/uikit.min.css">
     <link rel="stylesheet" href="css/vendor/uikit-rtl.min.css">
 </head>
-
 <body>
+
     <div class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-left">
             <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
         </div>
-        <a class="uk-navbar-item uk-logo uk-navbar-center" href="#">Pending Orders</a>
+        <a class="uk-navbar-item uk-logo uk-navbar-center" href="#">Pending&nbsp;Orders</a>
     </div>
 
     <div class="uk-container">
-        <div class="uk-card uk-card-default uk-width-1-2@m uk-margin-medium-top">
-            <div class="uk-card-header">
-                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                    <div class="uk-width-1-3">
-                        <img class="uk-border-circle" width=100% height=auto src="img/place1.jpg">
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-width-1-2@m">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40" src="img/place1.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Jaipur</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-03-21T19:00">March 21, 2018</time></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="uk-width-2-3">
-                        <h3 class="uk-card-title uk-margin-remove-bottom">Jaipur</h3>
-                        <p class="uk-text-meta uk-margin-small-top">
-                            Duration of stay:<br>
-                            No. of travellers:<br>
-                            Mood:<br>
-                            Budget:<br>
-                            Distance:<br>
+                    <div class="uk-card-body">
+                        <p>
+                            <strong>Budget : </strong> 10000<br>
+                            <strong>Travel Radius : </strong> 15km<br>
+                            <strong>Preferances : </strong> Hilly Areas<br>
+                            <strong>Days of travel : </strong> 3
+
                         </p>
                     </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-primary">Accept</a>
+                        <a href="#" class="uk-button uk-button-primary uk-align-right">Reject</a>
+                    </div>
                 </div>
-            <a href="#" class="uk-button uk-button-primary uk-align-left">Reject</a>
-            <a href="#" class="uk-button uk-button-primary uk-align-right">Accept</a>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-width-1-2@m">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40" src="img/place1.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Jaisalmer</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-03-21T19:00">March 21, 2018</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                            <p>
+                                <strong>Budget : </strong> 15000<br>
+                                <strong>Travel Radius : </strong> 30km<br>
+                                <strong>Preferances : </strong> Hilly Areas<br>
+                                <strong>Days of travel : </strong> 3
+
+                            </p>
+                        </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-primary">Accept</a>
+                        <a href="#" class="uk-button uk-button-primary uk-align-right">Reject</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-width-1-2@m">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40" src="img/place1.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Ajmer</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2018-03-21T19:00">March 21, 2018</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                            <p>
+                                <strong>Budget : </strong> 5000<br>
+                                <strong>Travel Radius : </strong> 20km<br>
+                                <strong>Preferances : </strong> Hilly Areas<br>
+                                <strong>Days of travel : </strong> 3
+
+                            </p>
+                        </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-primary">Accept</a>
+                        <a href="#" class="uk-button uk-button-primary uk-align-right">Reject</a>
+                        </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
 
-</body>
 
+    <script src="js/vendor/uikit.min.js"></script>
+    <script src="js/vendor/uikit-icons.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
