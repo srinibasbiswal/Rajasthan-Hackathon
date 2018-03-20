@@ -3,5 +3,9 @@ html{
 }
 
 .masthead{
+    top: auto !important;
     left: auto !important;
+    display: table;
+    position: relative;
+
 }
