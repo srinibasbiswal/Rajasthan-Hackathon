@@ -1,0 +1,28 @@
+{
+  "id": "51c501fd-5e55-45ba-aa9e-2e28c0a13dc8",
+  "name": "99_quit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you. Have a wonderful journey."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521571096,
+  "fallbackIntent": false,
+  "events": []
+}

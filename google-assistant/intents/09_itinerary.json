@@ -1,0 +1,95 @@
+{
+  "id": "b987d897-8ff0-425b-b9b1-7bae2c0e15cf",
+  "name": "09_itinerary",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "We have a selection of local item. Do you want to add any of those in to your itinerary?"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "A",
+                "synonyms": []
+              },
+              "title": "Carpet",
+              "description": "Handmade carpets. Price: 900 onwards",
+              "image": {
+                "url": "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2017/09/Rajasthani-Carpet.jpg",
+                "accessibilityText": "Carpet"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "B",
+                "synonyms": []
+              },
+              "title": "Jodhpuri Juttis",
+              "description": "Jodhpuri Juttis. Price:400 onwards",
+              "image": {
+                "url": "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2017/09/Rajasthani-Juttis.jpg",
+                "accessibilityText": "Jodhpuri Juttis"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "C",
+                "synonyms": []
+              },
+              "title": "Metal Works",
+              "description": "Metal Works. Price:1000 onwards",
+              "image": {
+                "url": "https://tmi2-tourmyindiapvtlt.netdna-ssl.com/blog/wp-content/uploads/2017/09/Metallic-figurines.jpg",
+                "accessibilityText": "Metal Works"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Carpet"
+            },
+            {
+              "title": "Jodhpuri Juttis"
+            },
+            {
+              "title": "Metal Works"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521572609,
+  "fallbackIntent": false,
+  "events": []
+}

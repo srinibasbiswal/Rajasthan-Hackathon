@@ -1,0 +1,26 @@
+[
+  {
+    "id": "34c9b8ef-8c6c-4cdb-89bf-99d0a88ff42d",
+    "data": [
+      {
+        "text": "itinerary_1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521570502
+  },
+  {
+    "id": "4859f428-f9ea-424c-8ffd-e54f78d4c783",
+    "data": [
+      {
+        "text": "itinerary_2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521570502
+  }
+]

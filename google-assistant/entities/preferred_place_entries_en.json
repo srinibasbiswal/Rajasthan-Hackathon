@@ -1,0 +1,46 @@
+[
+  {
+    "value": "mountains",
+    "synonyms": [
+      "mountain",
+      "mountains"
+    ]
+  },
+  {
+    "value": "forests",
+    "synonyms": [
+      "forest",
+      "forest area"
+    ]
+  },
+  {
+    "value": "beaches",
+    "synonyms": [
+      "beach",
+      "beaches"
+    ]
+  },
+  {
+    "value": "hilly areas",
+    "synonyms": [
+      "hilly area",
+      "hills"
+    ]
+  },
+  {
+    "value": "deserts",
+    "synonyms": [
+      "desert",
+      "deserts"
+    ]
+  },
+  {
+    "value": "history",
+    "synonyms": [
+      "history",
+      "cultural places",
+      "city arts",
+      "Cultural places"
+    ]
+  }
+]

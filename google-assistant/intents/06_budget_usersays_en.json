@@ -1,0 +1,84 @@
+[
+  {
+    "id": "aa59193e-bbec-4055-9b19-6772fc89a640",
+    "data": [
+      {
+        "text": "More than ",
+        "userDefined": false
+      },
+      {
+        "text": "10000 rupees",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521291
+  },
+  {
+    "id": "1cd57562-d1ee-4b13-9cb6-535d26c4ddd6",
+    "data": [
+      {
+        "text": "Around ",
+        "userDefined": false
+      },
+      {
+        "text": "5000 rupees",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521291
+  },
+  {
+    "id": "44587ea3-8fb4-4f0c-9365-d88a5966cd22",
+    "data": [
+      {
+        "text": "5000 rupees",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521291
+  },
+  {
+    "id": "09194b50-e875-4fed-a9fd-080f4a44dd05",
+    "data": [
+      {
+        "text": "Below ",
+        "userDefined": false
+      },
+      {
+        "text": "1000 rupees",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521291
+  },
+  {
+    "id": "43b8611c-8c97-4096-b765-496619407cb3",
+    "data": [
+      {
+        "text": "1000 rupees",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521291
+  }
+]

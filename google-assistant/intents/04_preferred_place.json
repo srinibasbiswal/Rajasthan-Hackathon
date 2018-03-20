@@ -1,0 +1,57 @@
+{
+  "id": "90b336be-5fa6-4bff-a10b-b0514ae77e33",
+  "name": "04_preferred_place",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8a6fc7c8-f64e-4cc1-901b-ec62f792454f",
+          "required": false,
+          "dataType": "@preferred_place",
+          "name": "preferred_place",
+          "value": "$preferred_place",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Are you adventurous or cautious?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Adventurous"
+            },
+            {
+              "title": "Cautious"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521527656,
+  "fallbackIntent": false,
+  "events": []
+}

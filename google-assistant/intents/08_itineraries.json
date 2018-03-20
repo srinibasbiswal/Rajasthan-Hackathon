@@ -1,0 +1,82 @@
+{
+  "id": "50a82826-3029-4e7e-aa44-8ce6dfb471ac",
+  "name": "08_itineraries",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are your itineraries"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Itinerary_1",
+                "synonyms": []
+              },
+              "title": "Itinerary_1",
+              "description": "City palace jaipur, Hawa mahal, Jal mahal, city museum . Price: 1000",
+              "image": {
+                "url": "http://www.pinkcityroyals.com/assets/images/jaipur-places-pics/City_Palace_jaipur_pinkcityroyals01.jpg",
+                "accessibilityText": "Cultural"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "itinerary_2",
+                "synonyms": []
+              },
+              "title": "itinerary_2",
+              "description": "City palace jaipur, Hawa mahal, Jal mahal, city museum , jantar manatar, Albert hall museum, Nahargarh fort, Amber palace. Price: 2500",
+              "image": {
+                "url": "https://1.bp.blogspot.com/-kGONo0IOIGk/VAXm2wQ1RXI/AAAAAAAAd-4/-PhHsr3Bn2Q/s1600/Jantar%2BMantar%2BDelhi%2Bindia.jpg",
+                "accessibilityText": "Cultural"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Itinerary_1"
+            },
+            {
+              "title": "itinerary_2"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false,
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521573026,
+  "fallbackIntent": false,
+  "events": []
+}

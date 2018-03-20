@@ -1,0 +1,139 @@
+{
+  "id": "27ca5757-1340-4a12-a53f-5e7bab6b431d",
+  "name": "03_plan_trip",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Srinibas 1",
+          "subtitle": "python 2",
+          "imageUrl": "https://srinibasbiswal.com/images/pic01.jpg",
+          "buttons": [
+            {
+              "text": "123"
+            },
+            {
+              "text": "456"
+            },
+            {
+              "text": "789"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Srinibas 2",
+          "subtitle": "python 3",
+          "imageUrl": "https://srinibasbiswal.com/images/pic02.jpg",
+          "buttons": [
+            {
+              "text": "123"
+            },
+            {
+              "text": "456"
+            },
+            {
+              "text": "789"
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "What kind of place do you like to visit?"
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "cultural places",
+                "synonyms": []
+              },
+              "title": "Cultural places",
+              "description": "Explore the city craftmenship",
+              "image": {
+                "url": "http://www.rajasthancitydaytour.com/wp-content/uploads/2017/10/hawa-mahal-jaipur.jpg",
+                "accessibilityText": "cultural places"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "beach",
+                "synonyms": []
+              },
+              "title": "Beaches",
+              "description": "Beaches with lot of sunshine",
+              "image": {
+                "url": "https://cyprus-index.co.uk/wp-content/uploads/Pantahou-Beach-Ayia-Napa-Cyprus-16x9-02-768x432.jpg",
+                "accessibilityText": "Beaches"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "forest",
+                "synonyms": []
+              },
+              "title": "Forests",
+              "description": "Wanna go for camping?",
+              "image": {
+                "url": "https://c402277.ssl.cf1.rackcdn.com/photos/946/images/story_full_width/forests-why-matter_63516847.jpg?1345534028",
+                "accessibilityText": "Forests"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "desert",
+                "synonyms": []
+              },
+              "title": "Deserts",
+              "description": "Dry and sunny deserts",
+              "image": {
+                "url": "https://pixfeeds.com/images/earth-science/biomes/1280-468877835-tuareg-with-camel-on-sahara-desert.jpg",
+                "accessibilityText": "Deserts"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "mountain",
+                "synonyms": []
+              },
+              "title": "Mountains",
+              "description": "Mountain areas, fresh air",
+              "image": {
+                "url": "https://www.ordnancesurvey.co.uk/getoutside/assets/uploads/Full_Width_Inline.jpg_boy_sat_on_mountain.jpg",
+                "accessibilityText": "Mountains"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521562788,
+  "fallbackIntent": false,
+  "events": []
+}

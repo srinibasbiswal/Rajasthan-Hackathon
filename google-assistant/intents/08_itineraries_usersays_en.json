@@ -1,0 +1,62 @@
+[
+  {
+    "id": "69423ff2-eda5-4daf-9975-6bc40ff8dc83",
+    "data": [
+      {
+        "text": "yes, i want to see",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521573026
+  },
+  {
+    "id": "12536d6d-ad04-4a57-9a7e-b8e9bead8b94",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1521573026
+  },
+  {
+    "id": "72ccb0b0-66cf-4cc8-aed7-eb16979b4583",
+    "data": [
+      {
+        "text": "show my itinerary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521573026
+  },
+  {
+    "id": "e968f082-936c-4749-b648-52134f1ef895",
+    "data": [
+      {
+        "text": "my itinerary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521573026
+  },
+  {
+    "id": "9dd77603-0d0a-4450-97ae-bdcd212a55d0",
+    "data": [
+      {
+        "text": "Is my itinerary ready?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521573026
+  }
+]

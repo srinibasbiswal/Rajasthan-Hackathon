@@ -1,0 +1,34 @@
+{
+  "id": "3c61422b-ffff-443e-8ecc-3e33f69af1f3",
+  "name": "success",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Your payment is successful. Thanks for using our app. Do you want anything more?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for using"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521575804,
+  "fallbackIntent": false,
+  "events": []
+}

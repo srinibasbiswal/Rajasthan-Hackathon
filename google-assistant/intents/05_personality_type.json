@@ -1,0 +1,61 @@
+{
+  "id": "0ed5983f-3423-4dd1-b2dd-3ff2f0d4cdf6",
+  "name": "05_personality_type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "56778d42-a779-4df3-8fc1-b94c543cab5a",
+          "required": false,
+          "dataType": "@personality_type",
+          "name": "personality_type",
+          "value": "$personality_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "What\u0027s your budget?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Below 1000 rupees"
+            },
+            {
+              "title": "Around 5000 rupees"
+            },
+            {
+              "title": "More than 10000 rupees"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521521394,
+  "fallbackIntent": false,
+  "events": []
+}

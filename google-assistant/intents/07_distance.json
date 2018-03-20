@@ -1,0 +1,59 @@
+{
+  "id": "aebe902a-c171-4a6a-943d-94df47852206",
+  "name": "07_distance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "07_distance",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2a3c3d45-0bf5-4f5a-abc6-014f0e305b81",
+          "required": false,
+          "dataType": "@sys.unit-length",
+          "name": "unit-length",
+          "value": "$unit-length",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Your  itinerary is being prepared. Do you want to see this now?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "No"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521572887,
+  "fallbackIntent": false,
+  "events": []
+}

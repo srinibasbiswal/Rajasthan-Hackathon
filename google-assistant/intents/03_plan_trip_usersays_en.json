@@ -1,0 +1,38 @@
+[
+  {
+    "id": "8c91d2ee-a7ec-4c2b-9bfc-5ae1353e1fb2",
+    "data": [
+      {
+        "text": "Plan a trip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521523061
+  },
+  {
+    "id": "b0e10a16-f1ae-4d94-90e6-d1844a6d9dd6",
+    "data": [
+      {
+        "text": "I want to explore this place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521523061
+  },
+  {
+    "id": "7f8942b6-2ee4-43b9-8f36-08ce046605ad",
+    "data": [
+      {
+        "text": "Plan trip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521523061
+  }
+]

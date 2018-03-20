@@ -1,0 +1,84 @@
+[
+  {
+    "id": "455f2fcf-cd03-47f7-87e4-c4962840e94a",
+    "data": [
+      {
+        "text": "forests",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521527494
+  },
+  {
+    "id": "a77357bb-04af-45c3-87ac-f60d6263b4e3",
+    "data": [
+      {
+        "text": "forest",
+        "alias": "preferred_place",
+        "meta": "@preferred_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521527494
+  },
+  {
+    "id": "ad6d0e63-fdf1-42f3-b3cf-bd5a097c0fdc",
+    "data": [
+      {
+        "text": "deserts",
+        "alias": "preferred_place",
+        "meta": "@preferred_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521527494
+  },
+  {
+    "id": "6f0bfc56-4c6f-44fb-81e3-8c3452faa6ba",
+    "data": [
+      {
+        "text": "beach",
+        "alias": "preferred_place",
+        "meta": "@preferred_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521527494
+  },
+  {
+    "id": "2edb06e3-118d-46fc-a338-191baff55123",
+    "data": [
+      {
+        "text": "beaches",
+        "alias": "preferred_place",
+        "meta": "@preferred_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521527494
+  },
+  {
+    "id": "1abb9c5f-afbd-4c43-bb78-8fcfbd73f024",
+    "data": [
+      {
+        "text": "Mountain",
+        "alias": "preferred_place",
+        "meta": "@preferred_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521527494
+  }
+]

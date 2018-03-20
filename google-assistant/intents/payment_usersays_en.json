@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a6dfeb74-0f7d-4cee-a45d-3d49494325bc",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521571008
+  },
+  {
+    "id": "cbfe80e8-553b-4849-a703-f76d2ba1fa65",
+    "data": [
+      {
+        "text": "No, thank you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521571008
+  },
+  {
+    "id": "13b92857-e25a-40e1-843c-c503d9b89cf8",
+    "data": [
+      {
+        "text": "Carpets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521571008
+  },
+  {
+    "id": "307eb106-5804-4daa-8542-6a01211c44af",
+    "data": [
+      {
+        "text": "Jodhpuri Juttis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521571008
+  },
+  {
+    "id": "b9cb1243-3ba9-4e1e-b040-846d2d0f6e62",
+    "data": [
+      {
+        "text": "Metal Works",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521571008
+  }
+]

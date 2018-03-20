@@ -1,0 +1,56 @@
+[
+  {
+    "id": "60c90f31-f216-4003-8a2d-291fab38846b",
+    "data": [
+      {
+        "text": "I am an ",
+        "userDefined": false
+      },
+      {
+        "text": "adventurous",
+        "alias": "personality_type",
+        "meta": "@personality_type",
+        "userDefined": false
+      },
+      {
+        "text": " person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521394
+  },
+  {
+    "id": "60b82754-d631-4ca1-b163-329df5f81055",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "cautious",
+        "alias": "personality_type",
+        "meta": "@personality_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521394
+  },
+  {
+    "id": "715e49d2-fd6f-4150-9199-ccf0f156e663",
+    "data": [
+      {
+        "text": "Cautious",
+        "alias": "personality_type",
+        "meta": "@personality_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521521394
+  }
+]
